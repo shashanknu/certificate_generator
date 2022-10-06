@@ -4,7 +4,7 @@ import img2pdf
 from PIL import ImageFont
 import re
 import os
-file=open("candidate_list.txt")
+file=open("list.txt")
 for name in file:
         name = name.rstrip()
         img = Image.open('/home/nu/Documents/python/sample-1.png')
